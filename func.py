@@ -1,10 +1,5 @@
-def suma (a, b, c=0, d=0):
-    if c != 0 and d != 0:
-        return a + b + c + d
-    elif c != 0:
-        return a + b + c
-    else:
-        return a + b
+def suma (*num):
+    return sum(num)
     
 
-print (suma(2,2,3,6))
+print (suma(2,2,3,6,9,13))
